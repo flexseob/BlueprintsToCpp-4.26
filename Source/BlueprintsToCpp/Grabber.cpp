@@ -73,5 +73,6 @@ UPhysicsHandleComponent* UGrabber::GetPhysicsComponent() const
 
 bool UGrabber::TraceForPhysicsBodies_Implementation(AActor*& HitActor, UPrimitiveComponent*& HitComponent)
 {
+	
 	return false;
 }
